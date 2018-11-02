@@ -39,9 +39,13 @@ Here we use `Iron` to manipulate data in a fluent API using an `\ImmutableDateTi
 
 ## Tests
 
-This project is tested thanks to PHPSpec. To run the tests:
+This project is tested thanks to PHPSpec and PHPUnit. To run the tests:
 
 `composer test`
+
+## CS Fixing
+
+Coding Standards are checked and fixed thanks to PHP-CS-Fixer. To fix your code, just run `composer cs-fix`.
 
 ## Contributing
 
