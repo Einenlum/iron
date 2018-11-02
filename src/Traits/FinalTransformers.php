@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Iron\Iron\Traits;
+namespace Iron\Traits;
 
-trait Accessors
+trait FinalTransformers
 {
     public function toDateTime(): \DateTimeImmutable
     {

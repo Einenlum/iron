@@ -2,11 +2,11 @@
 
 namespace Iron;
 
-use Iron\Iron\Traits\Accessors;
+use Iron\Traits\FinalTransformers;
 
 class Iron
 {
-    use Accessors;
+    use FinalTransformers;
 
     private $dateTime;
 
