@@ -48,4 +48,10 @@ class IronSpec extends ObjectBehavior
 
         $this->toDateTimeMutable()->shouldReturnAnInstanceOf(\DateTime::class);
     }
+
+    function it_can_be_constructed_set_to_now()
+    {
+        $this->beConstructedThrough('now');
+        $this->toDateTime()->shouldReturnAnInstanceOf(\DateTimeImmutable::class);
+    }
 }
