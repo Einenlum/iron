@@ -1,5 +1,7 @@
 # Iron
 
+[![CircleCI](https://circleci.com/gh/Einenlum/iron.svg?style=svg)](https://circleci.com/gh/Einenlum/iron)
+
 A Carbon-like tool done the right way.
 
 ## Install
