@@ -21,9 +21,9 @@ $later = $iron->addDays(2)->toDateTimeImmutable();
 
 ## Available methods
 
-- [toDateTime](<doc/methods.md#toDateTime()>)
-- [toDateTimeImmutable](<doc/methods.md#toDateTimeImmutable()>)
-- [toDateTimeMutable](<doc/methods.md#toDateTimeMutable()>)
+- [toDateTime](doc/methods.md#todatetime)
+- [toDateTimeImmutable](doc/methods.md#todatetimeimmutable)
+- [toDateTimeMutable](doc/methods.md#todatetimemutable)
 
 ## Why?
 
