@@ -35,13 +35,17 @@ And every method (and getter) available in [Carbon](https://github.com/briannesb
 
 Here we use `Iron` to manipulate data in a fluent API using an `\ImmutableDateTime` object under the hood and we finally return a native PHP `\DateTimeImmutable` (or `\DateTime`) object.
 
-** For now it just wraps carbon calls and getters. Next step will be for sure to implement here all the methods we need to get rid of Carbon in the end. **
+**For now it just wraps carbon calls and getters. Next step will be for sure to implement here all the methods we need to get rid of Carbon in the end.**
 
 ## Tests
 
-This project is tested thanks to PHPSpec. To run the tests:
+This project is tested thanks to PHPSpec and PHPUnit. To run the tests:
 
 `composer test`
+
+## CS Fixing
+
+Coding Standards are checked and fixed thanks to PHP-CS-Fixer. To fix your code, just run `composer cs-fix`.
 
 ## Contributing
 
