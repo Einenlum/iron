@@ -1,12 +1,14 @@
 # Iron
 
 [![CircleCI](https://circleci.com/gh/Einenlum/iron.svg?style=svg)](https://circleci.com/gh/Einenlum/iron)
+[![Latest Stable Version](https://poser.pugx.org/einenlum/iron/v/stable)](https://packagist.org/packages/einenlum/iron)
+[![Latest Unstable Version](https://poser.pugx.org/einenlum/iron/v/unstable)](https://packagist.org/packages/einenlum/iron)
 
 A Carbon-like tool done the right way.
 
 ## Install
 
-`composer require einenlum/iron`
+`composer require einenlum/iron@dev`
 
 ## Usage
 

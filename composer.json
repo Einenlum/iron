@@ -17,9 +17,8 @@
       "Iron\\Tests\\": "tests/"
     }
   },
-  "minimum-stability": "dev",
   "require": {
-    "nesbot/carbon": "dev-master"
+    "nesbot/carbon": "^2.5"
   },
   "require-dev": {
     "phpspec/phpspec": "^5.1@dev",
