@@ -1,0 +1,23 @@
+{
+  "name": "einenlum/iron",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Einenlum",
+      "email": "yann.rabiller@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Iron\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {},
+  "require-dev": {
+    "phpspec/phpspec": "^5.1@dev"
+  },
+  "scripts": {
+    "test": "phpspec run -vvv --ansi"
+  }
+}
