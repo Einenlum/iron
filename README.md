@@ -8,7 +8,7 @@ A Carbon-like tool done the right way.
 
 ## Install
 
-`composer require einenlum/iron@dev`
+`composer require einenlum/iron:dev-master`
 
 ## Usage
 
